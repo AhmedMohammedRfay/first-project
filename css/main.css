@@ -1,0 +1,256 @@
+/*lines 531*/
+/*lines 284*/
+body{background-color:white;} 
+.container{	max-width:800px;margin:auto;}
+.header .slider{ background-color:#452F31;height:400px;}
+.header .slider .main{ padding-top:200px;text-align:center;color:#FFF;}
+.header .slider .main h3
+{
+	margin:0 auto;
+	width:500px;
+	font-size:40px;
+	padding:10px;
+	border-bottom:1px solid #FFF;
+	border-top:1px solid #FFF;
+	color:#FFF;
+}
+.header .slider .main button
+{
+	 
+	background:none;
+	padding:10px;
+	margin:30px;
+    width:120px;
+    color:#FFF;
+    border:1px solid #FFF;
+}
+.header .navbar{background-color:#252F31;	overflow:hidden;}
+.header .navbar .container h3{text-transform:uppercase;}
+.header .navbar .container h3 span{	color:#2ecc71}
+.header .navbar .container ul
+{
+	list-style:none;
+	overflow:hidden;
+	float:right;
+	color:white;
+	padding-left:0;
+}
+.header .navbar .container ul li{display:inline-block;padding:5px;}
+.header .navbar .container ul li a{	text-decoration:none;color:#FFF;}
+.header .navbar .container ul li a:hover,
+.header .navbar .container ul li.active a{color:#30B576;}
+
+/*start features*/
+.features
+{	padding:5px 0 5px 0;	 
+    overflow:hidden;
+	padding-top:40px;
+	 padding-bottom:50px;   
+}
+.features .fet{	width:33.3333%;	float:left;	}
+.features .fet p{ text-align:justify;padding-right:20px}
+/*end features*/
+
+/*start about me*/
+.AboutMe{background-color:#F5F5F5;overflow:hidden;}
+.AboutMe .images{width:40%;float:left;}
+.AboutMe .images img{	min-height:560px;width:100%;}
+.AboutMe .about{ width:60%;	float:left;	margin-bottom:20px;	}
+.AboutMe .about h3{	margin:40px 0 20px 40px;}
+.AboutMe .about > p{	margin:20px 0 0px 40px;	}
+.AboutMe .about p{	color:#555;	line-height:1.5;}
+.AboutMe .about > p:last-of-type{	margin-top:20px;}
+.AboutMe .about .hopp{	overflow:hidden;}
+.AboutMe .about .hopp .content{	float:left;	width:50%;min-height:50px;overflow:hidden;}
+.AboutMe .about .hopp .content .icons{	width:15%;float:left;}
+.AboutMe .about .hopp .content .icons i{margin:50px 0 0 20px;}
+.AboutMe .about .hopp .content .text{float:left;width:85%;margin-top:0;}
+.AboutMe .about .hopp .content .text > h3{	margin-bottom:10px;}
+.AboutMe .about .hopp p{margin:0px 0 0px 40px;}
+/*end about me*/
+
+/*start myskills*/
+.MySkills{background-color:white;overflow:hidden;}
+.MySkills .soft h3{	margin:40px 0 20px 40px;}
+.MySkills .soft p{margin:20px 0 20px 40px;}
+.MySkills .soft button{	margin-left:40px;margin-bottom:20px;}
+
+.MySkills .soft,.MySkills .techn{width:50%;margin:10px 0 10px 0;}
+.MySkills .techn .T {margin-left:40px;}
+.MySkills .techn .T h4{	margin-bottom:10px}
+.MySkills .techn .T div{height:20px;	background-color:#F5F5F5;}
+.MySkills .techn .T div span
+{
+	background-color:#2DCC70;
+	 color:#FFF;
+	 text-align:right;
+	 display:block;
+	 line-height:20px;
+}
+/*end myskills*/
+/*start resume*/
+.resume
+{
+	background-color:#F5F5F5;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.resume h3
+{
+	margin-top:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.resume p{	color:#888;	line-height:1.4;}
+.resume button{	margin-bottom:40px;	margin-top:20px;}
+/*End resume*/
+.boxclear{	clear:both;}
+/*start myEducation*/
+.education{	background-color:white;overflow:hidden;	}
+.education .bachlor,.education .courses{	width:50%;}
+.education .bachlor h3{	margin:40px 0 20px 40px;}
+.education .bachlor p{margin:20px 0 20px 40px;}
+.education .courses
+{
+	 width:45%;
+	 margin-left:5%;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+.education .courses h3{	margin-bottom:10px}
+.education .courses span{	display:block;	margin-bottom:10px;color:#888;}
+.education .courses span:last-of-type
+{
+	background-color:#2DCC70;
+	display:inline;
+	padding:5px;
+    margin-bottom:10px;	
+	color:#FFF
+}
+.education .courses hr{	margin-bottom:10px;	margin-top:30px;}
+.education hr{border:1px solid #F2F2F2;}
+/*end myeducation*/
+
+/*start Minols*/
+.Minlos
+{
+	background-color:#F5F5F5;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	 
+}
+.Minlos q
+{
+	margin-bottom:20px;	
+	color:#999;
+	font:italic bold 15px/1.4 Arial Tahoma;
+}
+.Minlos ul
+{
+	list-style:none;
+	text-align:center;
+	padding-left:0px;
+}
+.Minlos ul li 
+{
+	display:inline-block;
+	border:2px solid #2DCC70;
+	width:5px;
+	height:5px;
+	cursor:pointer;
+}
+.Minlos ul li:hover,.Minlos ul li.active{	background-color:#2DCC70;}
+/*End Minols*/
+
+/* start portofilo*/
+.portofilo
+{
+	text-align:center;
+	overflow:hidden;
+	padding-bottom:50px;
+	padding-top:40px;
+}
+.portofilo h3{margin-bottom:30px;}
+.portofilo p{	margin-bottom:50px;	margin-top:30px;}
+.portofilo .ourworks > div{	width:33.333%;	float:left;}
+.portofilo .ourworks > div img
+{
+	width:95%;
+	margin:5px;
+	border:2px solid #CCC;
+	background-color:#FFF;
+}
+/* end portofilo*/
+
+/* start contact me*/
+.ContactMe
+{
+	overflow:hidden;
+	padding-bottom:10px;
+	padding-top:10px;
+	background-color:#252F31;
+}
+.ContactMe .main{	width:50%;}
+.ContactMe .form{	 	width:45%;}
+.ContactMe .main p{	color:#6A6E71;}
+.ContactMe .main p strong{	color:#D1D6DA}
+.ContactMe .main h3{	color:white;}
+.ContactMe .form{	margin-left:5%;	margin-top:20px;}
+.ContactMe .form label
+{
+	display:block;
+	padding-bottom:10px;
+	color:#D1D6DA;
+}
+.ContactMe .form input[type="text"]
+{
+	background-color:#4B5557;
+	color:#D1D6DA;
+	border:0;
+	width:80%;
+	height:30px;
+	margin-bottom:30px;
+}
+.ContactMe .form textarea
+{
+	background-color:#4B5557;
+	color:#D1D6DA;
+	border:0;
+	width:80%;
+	height:140px;
+	margin-bottom:30px;
+	
+}
+.ContactMe .form input[type="submit"]
+{
+	background-color:#191E22;
+	color:#FFF;
+	border:0;
+	padding:10px 20px 10px 20px;
+	margin-bottom:30px
+}
+/* end contact me*/
+
+/* start footer*/
+.footer{background-color:#191E22;	}
+.footer .copy{	text-align:center;	}
+.footer .copy span{	display:block;	padding-top:40px;}
+.footer ul{	list-style:none;margin-right:50px	;}
+.footer ul li{display:inline-block;padding-top:10px;margin-bottom:40px;}
+/* end footer*/
+
+/*my framwork*/
+.my-button
+{
+	color:#2DCC70;
+	padding:5px 20px 5px 20px ;
+	background-color:white;
+	border:2px solid #2DCC70;
+	font-weight:bold;
+}
+.fl-left{float:left;}
+p{color:#888;line-height:1.6;}
+h3{color:#555;}
+/*my framwork*/
